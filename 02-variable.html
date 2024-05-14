@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var num1 = 5 // var ซ้ำได้
+        let num2 = 7 // let ซ้ำไม่ได้จ้า
+        num3 = 20 
+        let fname = ' Jirapat'
+        let email = ' jirapat@gmail.com'
+        const pi = 3.14
+        num1 = 100
+
+    </script>
+</head>
+<body>
+    <!-- <script>document.write(num1)</script>
+    <script>document.write(num2)</script>
+    <script>document.write(num3)</script> -->
+
+    <!-- <script>
+        document.write(num1)
+        document.write(num2)
+        document.write(num3)
+    </script> -->
+
+    <!-- <script>
+        document.writeln(num1)
+        document.writeln(num2)
+        document.writeln(num3)
+    </script> -->
+
+    <!-- <h1>
+        <script>
+            document.write(num1 + '<br>')
+            document.write(num2 + '<br>')
+            document.write(num3 + '<br>')
+        </script>
+    </h1> -->
+   
+    <h1>
+        <div style="color: rgb(230, 15, 126);">
+            <script>
+                document.write(num1 + '<br>')
+                document.write(num2 + '<br>')
+                document.write(num3 + '<br>')
+            </script>
+        </div>
+    </h1>
+
+        <div>
+            <p style="color: green;"><script>document.write(fname)</script></p>
+            <p style="color: blue;"><script>document.write(email)</script></p>
+        </div>
+
+        <div>
+            <p id="fname"></p>
+            <p id="email"></p>
+        </div>
+
+        <script>
+            document.getElementById('fname').innerHTML = fname;
+            document.getElementById('email').innerHTML = email;
+            document.write(pi)
+        </script>
+
+
+
+</body>
+</html>
